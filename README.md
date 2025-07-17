@@ -1,11 +1,11 @@
 # ExtraDrops
-A lightweight plugin that adds Rust-esque resource modification to Minecraft
+A lightweight plugin that adds Rust-esque resource modification to Minecraft.
 For documentation's sake earlier versions of the plugin have been added as well.
 
 HOW TO USE:
 Drag this into your plugins folder in your minecraft world file.
 
-You must have op to use these commands!
+You must have op to use these commands! Also, if a block has two or more words as its tag, you must separate the two words with an underscore. For example, grass block is GRASS_BLOCK (lowercase entry works fine).
 commands:
   setblockmult:
     description: Set a multiplier for a block type
