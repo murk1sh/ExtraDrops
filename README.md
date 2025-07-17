@@ -9,13 +9,16 @@ You must have op to use these commands!
 commands:
   setblockmult:
     description: Set a multiplier for a block type
-
+    usage: /setblockmult <block> <amount>
+    
   setblockmultbatch:
     description: Set a multiplier for multiple block types
-
+    usage: /setblockmultbatch <block,amount;block,amount;...>
+    
   setblockmultglobal:
     description: Set a universal multiplier for all block types
-
+    usage: /setblockmultglobal <amount>
+    
   setmobmult:
     description: Set a multiplier for a mob
     usage: /setmobmult <mob> <amount>
